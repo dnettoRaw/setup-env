@@ -1,7 +1,10 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'Setup Environment'
+description: 'setup env with packages values'
+author: 'dnettoRaw'
 inputs:
+  path:
+    description: "package.json location"
+    required: false
   milliseconds: # change this
     required: true
     description: 'input description here'
